@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return false">
+        <button type="submit" onclick="AC()">AC</button>
+        <input type="text" id="firstnum" placeholder="First number" value = "">
+        <select name="" id="oper">
+            <option >+</option>
+            <option selected>-</option>
+            <option >/</option>
+            <option >*</option>
+        </select>
+        <input type="text" id="secondnum" placeholder="Second number">
+        <button type="submit" onclick="calc()">=</button>
+        <input type="text" id="result" disabled value="" style = "border:2px solid black; border-radius:4px; color: blackl;">
+        
+    </form>
+</body>
+<script src="./jvs.js"></script>
+</html>
